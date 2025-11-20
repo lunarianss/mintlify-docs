@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "http://sandbox.mintlify.com"
+      "url": "http://120.78.6.109:3001"
     }
   ],
   "security": [
@@ -96,8 +96,8 @@
         }
       }
     },
-    "/plants/{id}": {
-      "delete": {
+    "/plants/12": {
+      "get": {
         "description": "Deletes a single plant based on the ID supplied",
         "parameters": [
           {
